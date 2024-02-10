@@ -12,5 +12,5 @@ jobs:
     steps:
       - name: commands
         run: |
-          apt update
-          apt install clang-format-17
+          sudo apt update
+          sudo apt install clang-format-17
